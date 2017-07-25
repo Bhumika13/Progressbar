@@ -1,0 +1,42 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .progresssec {
+        margin: 30px 0;
+        position: relative;
+    }
+
+    #progressLabel,
+    #progressLabel1,
+    #progressLabel2 {
+        position: absolute;
+        left: 50%;
+        top: 3px;
+        margin: 0;
+    }
+
+    .ui-widget-header {
+        background: green;
+    }
+
+    .max .ui-widget-header {
+        background: red;
+    }
+
+    .ui-progressbar .ui-progressbar-value {
+        height: 2em;
+    }
+
+    .progressbardiv {
+        pointer-events: none;
+    }
+
+    .form-control {
+        width: auto
+    }
