@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <title>Progress bar</title>
-<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="jquery-ui.css" type="text/css">
-<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 
 <body>
     <div class="container">
         <h1>Progress Bar</h1>
         <div class="progresssec o1 active">
+            <div class="progressnumber">#1</div>
             <div id="progressbar" class="progressbardiv"></div>
             <p id="progressLabel" class="progresslabeldiv">25%</p>
         </div>
 
         <div class="progresssec o2">
+            <div class="progressnumber">#2</div>
             <div id="progressbar1" class="progressbardiv"></div>
             <p id="progressLabel1" class="progresslabeldiv">50%</p>
         </div>
 
         <div class="progresssec o3">
+            <div class="progressnumber">#3</div>
             <div id="progressbar2" class="progressbardiv"></div>
             <p id="progressLabel2" class="progresslabeldiv">75%</p>
         </div>
@@ -29,17 +32,17 @@
                 <option value="o3">Progress 3</option>
             </select>
             <div class="col-sm-8">
+                <button type="button" class="btn btn-primary" id="plus10">10</button>
+                <button type="button" class="btn btn-primary" id="plus">25</button>
                 <button type="button" class="btn btn-primary" id="minus">-25</button>
-                <button type="button" class="btn btn-primary" id="minus10">-10</button>
-                <button type="button" class="btn btn-primary" id="plus10">+10</button>
-                <button type="button" class="btn btn-primary" id="plus">+25</button>
+                <button type="button" class="btn btn-primary" id="minus10">-10</button>                
             </div>
         </div>
     </div>
 
 
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="jquery-ui.min.js"></script>
-    <script src="mainscript.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/mainscript.js"></script>
 </body>
 </html>
