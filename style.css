@@ -22,11 +22,11 @@
     }
 
     .ui-widget-header {
-        background: green;
+        background:#bcdce5;
     }
 
     .max .ui-widget-header {
-        background: red;
+        background:#e55154;
     }
 
     .ui-progressbar .ui-progressbar-value {
@@ -40,3 +40,20 @@
     .form-control {
         width: auto
     }
+    .ui-widget.ui-widget-content{
+        border:2px solid #bcdce5;
+        border-radius: 0;
+    }
+    .progressnumber{
+        float: left;
+        width: 32px;
+        height: 32px;
+        border: 2px solid #e55154;
+        text-align: center;
+        margin-right: 2px;
+    }
+    .progresssec.active .progressnumber{
+        background: #e55154;
+        color: #fff;
+    }
+  
